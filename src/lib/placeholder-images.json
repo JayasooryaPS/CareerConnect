@@ -1,0 +1,28 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "A modern office setting with people collaborating.",
+      "imageUrl": "https://images.unsplash.com/photo-1641060272821-df59e2c0b5ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtb2Rlcm4lMjBvZmZpY2V8ZW58MHx8fHwxNzU4OTYxMDcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern office"
+    },
+    {
+      "id": "seeker-feature",
+      "description": "A person confidently looking at their career prospects.",
+      "imageUrl": "https://images.unsplash.com/photo-1698047681452-08eba22d0c64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxqb2IlMjBzZWVrZXJ8ZW58MHx8fHwxNzU4OTgzMjA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "job seeker"
+    },
+    {
+      "id": "recruiter-feature",
+      "description": "A recruiter reviewing candidate profiles on a laptop.",
+      "imageUrl": "https://images.unsplash.com/photo-1613141410962-ba009496f4d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxyZWNydWl0ZXIlMjBsYXB0b3B8ZW58MHx8fHwxNzU4OTgzMjA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "recruiter laptop"
+    },
+    {
+      "id": "ai-feature",
+      "description": "An abstract representation of AI and data analysis.",
+      "imageUrl": "https://images.unsplash.com/photo-1636690498207-d7b393423b9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhYnN0cmFjdCUyMEFJfGVufDB8fHx8MTc1ODkwMjQ0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract AI"
+    }
+  ]
+}

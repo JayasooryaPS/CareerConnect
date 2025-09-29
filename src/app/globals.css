@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 96%; /* Light Gray */
+    --foreground: 210 20% 15%; /* Dark Blue-Gray Text */
+    --card: 0 0% 100%; /* White */
+    --card-foreground: 210 20% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 20% 15%;
+    --primary: 207 90% 68%; /* Soft Blue */
+    --primary-foreground: 210 20% 15%;
+    --secondary: 174 60% 44%; /* Teal */
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 90%;
+    --muted-foreground: 210 10% 45%;
+    --accent: 174 60% 44%; /* Teal */
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 88%;
+    --input: 0 0% 88%;
+    --ring: 207 90% 68%; /* Soft Blue */
+    --radius: 0.5rem;
+  }
+ 
+  .dark {
+    --background: 210 20% 15%; /* Dark Blue-Gray */
+    --foreground: 0 0% 96%; /* Light Gray */
+    --card: 210 20% 20%;
+    --card-foreground: 0 0% 96%;
+    --popover: 210 20% 20%;
+    --popover-foreground: 0 0% 96%;
+    --primary: 207 90% 68%; /* Soft Blue */
+    --primary-foreground: 210 20% 15%;
+    --secondary: 174 60% 44%; /* Teal */
+    --secondary-foreground: 0 0% 98%;
+    --muted: 210 20% 25%;
+    --muted-foreground: 0 0% 60%;
+    --accent: 174 60% 44%; /* Teal */
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 210 20% 30%;
+    --input: 210 20% 30%;
+    --ring: 207 90% 68%; /* Soft Blue */
+  }
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
